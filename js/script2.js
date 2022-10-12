@@ -1,5 +1,5 @@
-let nomi = ['Andrea', 'Giulia','Sofia', 'Lorenzo', 'Marco', 'Francesco'];
-let cognomi = ['Gallini', 'Osvaldo','Ornavasso'];
+let nomi = ['Mario', 'Achille','Adriano', 'Lorenzo', 'Matteo', 'Francesco','Matteo','Antonio','Mario'];
+let cognomi = ['Abbate', 'Lauro','Viterbini','Macchioni','Maggio','Rossi','Verdi','Ferrari','Colombo'];
 let btn = document.querySelector('button')
 let invitati = document.getElementById('invitati')
 let numeroUtenti = document.getElementById('NumeroUtenti');
@@ -15,8 +15,10 @@ let genera = function(){
         ${randomnomi}  ${randomcognomi} <br>
         `
     }
+    
 
 
 }
+invitati.innerHTML = ''
 btn.addEventListener('click', genera)
 
